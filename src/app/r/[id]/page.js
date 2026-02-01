@@ -105,7 +105,7 @@ export default function DateGame() {
   const renderHome = () => (
     <div className="text-center space-y-4 flex flex-col items-center">
       <h1 className="text-4xl font-champ font-bold" ref={titleRef}>
-        Do you want to go on a date with me?
+        Orianne veux-tu être ma valentine ?
       </h1>
       <div className="flex justify-center">
         <Image
@@ -135,7 +135,7 @@ export default function DateGame() {
   const renderSelect = () => (
     <div className="flex flex-col items-center justify-between text-center h-screen pt-20 pb-15 max-h-dvh w-[400px]">
       <div className="w-full px-4">
-        <h1 className="text-4xl font-champ ">Select a date</h1>
+        <h1 className="text-4xl font-champ ">Selectionne une date</h1>
         <div className="mt-4 flex gap-6 flex-col items-center py-6">
           <LocationRadioGroup
             value={selectedOption}
@@ -160,7 +160,7 @@ export default function DateGame() {
   const renderCongrats = () => (
     <div className="text-center space-y-4">
       <h1 className="text-4xl font-champ">
-        Congrats, you earned a special time with me
+        Bravo 😏 tu as débloqué un moment VIP avec moi
       </h1>
       <div className="flex justify-center">
         <Image
